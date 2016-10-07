@@ -13,17 +13,17 @@ class Input {
 	System.out.print(bi+" ");
 	System.out.print(ci+" ");
 	System.out.print(di+" ");
-	System.out.print(ei+" ");	
+	System.out.print(ei+"\n");	
 		
 		sum = ai + bi + ci + di + ei;
-		pro = ai * bi * ci * di * ei;
 		diff = -(ai) - bi - ci - di - ei;
+		pro = ai * bi * ci * di * ei;
 		div = ai / bi / ci / di / ei;
 		
-		System.out.println("sum="+sum);
-		System.out.println("diff="+diff);
-		System.out.println("pro="+pro);
-		System.out.println("div="+div);
+		System.out.println("sum= "+sum);
+		System.out.println("diff= "+diff);
+		System.out.println("pro= "+pro);
+		System.out.println("div= "+div);
 		System.out.println("\n");
 	}
 }
