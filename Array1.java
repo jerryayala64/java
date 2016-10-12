@@ -1,5 +1,5 @@
 import java.until.Arrays;
-class Array1 (
+class Array1 {
   public static void main (String a[]){
     int i;
     int[] ia ;ia = new int[21];
